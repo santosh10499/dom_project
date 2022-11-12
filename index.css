@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: antiquewhite;
+    width:100%;
+    height: 740px;
+    display: flex;
+    justify-content: space-around;
+
+    
+    
+}
+#heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    text-shadow: 2px 6px 2px gray;
+}
+#Inner-conatiner{
+    width: 60%;
+    position:fixed;
+    top:80%;
+     display: flex;
+    justify-content: space-around;
+}
+
+#one{
+   width: 30px; 
+   height: 30px;
+   background-color:palegoldenrod;
+   border-radius: 50px;
+   cursor: pointer;
+
+}
+
+ #two{
+    width: 30px; 
+   height: 30px;
+    background-color: palegreen;
+    border-radius: 50px;
+    
+ }
+ #three{
+    width: 30px; 
+   height: 30px;
+    background-color:orange;
+    border-radius: 50px;
+    
+ }
+ #four{
+    width: 30px; 
+   height: 30px;
+    background-color:hotpink;
+    border-radius: 50px;
+    
+ }
+ #five{
+    width: 30px; 
+   height: 30px;
+    background-color: olivedrab;
+    border-radius: 50px;
+    
+ }
+ #six{
+    width: 30px; 
+   height: 30px;
+    background-color:gold;
+    border-radius: 50px;
+    
+    
+ }
+ #seven{
+    width: 30px; 
+   height: 30px;
+    background-color: ghostwhite;
+    border-radius: 50px;
+    
+ }
+ #eight{
+    width: 30px; 
+   height: 30px;
+    background-color: peru;
+    border-radius: 50px;
+    
+ }
+ #nine{
+    width: 30px; 
+   height: 30px;
+    background-color: gray;
+    border-radius: 50px;
+    
+ }
+ #ten{
+    width: 30px; 
+   height: 30px;
+    background-color: teal;
+    border-radius: 50px;
+    
+ }
+ @media screen and (max-width: 480px){
+    #Inner-conatiner{
+        flex-direction: column;
+        position: fixed;
+        top: 2%;
+        left:10%;
+        height: 50%;
+        
+    }
+    #heading{
+        display: none;
+    }
+    
+ }
+ @media screen and (max-width: 780px){
+    #Inner-conatiner{
+        flex-direction: column;
+        position: fixed;
+        top: 2%;
+        left:10%;
+        height: 50%;
+        
+    }
+    #heading{
+        font-size: 37px;
+    }
+ }
+ 
