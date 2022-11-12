@@ -41,28 +41,28 @@
    height: 30px;
     background-color: palegreen;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #three{
     width: 30px; 
    height: 30px;
     background-color:orange;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #four{
     width: 30px; 
    height: 30px;
     background-color:hotpink;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #five{
     width: 30px; 
    height: 30px;
     background-color: olivedrab;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #six{
     width: 30px; 
@@ -70,21 +70,21 @@
     background-color:gold;
     border-radius: 50px;
     
-    
+    cursor: pointer;
  }
  #seven{
     width: 30px; 
    height: 30px;
     background-color: ghostwhite;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #eight{
     width: 30px; 
    height: 30px;
     background-color: peru;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  #nine{
     width: 30px; 
@@ -98,7 +98,7 @@
    height: 30px;
     background-color: teal;
     border-radius: 50px;
-    
+    cursor: pointer;
  }
  @media screen and (max-width: 480px){
     #Inner-conatiner{
